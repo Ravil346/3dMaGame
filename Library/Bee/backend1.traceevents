@@ -1,0 +1,362 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1719783070784819, "dur":1925, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070786755, "dur":142, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070786941, "dur":424, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070789642, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1719783070787386, "dur":3278, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070790665, "dur":184494, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070975161, "dur":332, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070975494, "dur":64, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070975807, "dur":2229, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719783070787422, "dur":3248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719783070790673, "dur":6101, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719783070796803, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719783070796915, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719783070797076, "dur":1119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1719783070798196, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1719783070798502, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719783070798611, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719783070798753, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719783070798951, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719783070799225, "dur":366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719783070799592, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719783070799671, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719783070796913, "dur":3130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719783070800879, "dur":167846, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719783070973346, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719783070973345, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/My project (1)_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719783070973579, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1719783070787460, "dur":3217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070790679, "dur":931, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070791610, "dur":5195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070796811, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1719783070796894, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070815052, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1719783070816845, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070816986, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070819536, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070819643, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070822347, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070822426, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070824773, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070824886, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070828044, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070828126, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070830897, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070830993, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070834633, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070834785, "dur":3970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070838825, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070838953, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070842594, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070842723, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719783070846140, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719783070846211, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1719783070849186, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1719783070852320, "dur":122884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070787485, "dur":3198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070790685, "dur":895, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070791581, "dur":5233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070796829, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1719783070796817, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1719783070796910, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070798674, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1719783070801106, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1719783070802352, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1719783070804002, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1719783070804064, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070804444, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1719783070805826, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070805822, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070806052, "dur":4946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070811121, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070812795, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070812866, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070814631, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070814704, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070816642, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070816779, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070818795, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070818949, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070821357, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070821448, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070824285, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070824424, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070827369, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070827491, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070830418, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070830556, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070834153, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070834362, "dur":4479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070838990, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070839121, "dur":3791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070842978, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719783070843058, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719783070847514, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1719783070849825, "dur":125329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719783070787515, "dur":3174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719783070790692, "dur":893, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719783070791585, "dur":5234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719783070796821, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1719783070797062, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719783070863202, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1719783070864728, "dur":110503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719783070787539, "dur":3156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719783070790697, "dur":849, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719783070791547, "dur":5241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719783070796821, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1719783070796790, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1719783070796940, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719783070837091, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1719783070838776, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719783070838864, "dur":3797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719783070842734, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719783070842821, "dur":5607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719783070848563, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1719783070852716, "dur":122470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070787571, "dur":3130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070790704, "dur":844, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070791548, "dur":5243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070796794, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1719783070796872, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070798447, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1719783070800684, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1719783070800736, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070801119, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1719783070802416, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1719783070804511, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070804508, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070804585, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070804877, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070806638, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/My project (1)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1719783070806770, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070807427, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1719783070810945, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070813609, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070815535, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070815726, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070818467, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070818549, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070821028, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070821143, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070823848, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070823951, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070826758, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070826868, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070829887, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070829996, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070833841, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070833973, "dur":4064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070838103, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070838267, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070841889, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719783070841989, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719783070845917, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1719783070849401, "dur":4168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1719783070853636, "dur":121545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070787597, "dur":3110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070790710, "dur":885, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070791595, "dur":5203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070796800, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1719783070796914, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070805222, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1719783070806968, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070807651, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070811435, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070811540, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070813048, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070813118, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070815257, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070815382, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070817255, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070817359, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070819874, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070819996, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070822917, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070823145, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070825838, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070825962, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070829046, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070829205, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070832434, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070832592, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070835453, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070835653, "dur":4322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070840046, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070840201, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070844034, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719783070844189, "dur":6213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719783070850689, "dur":124538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719783070787626, "dur":3089, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719783070790718, "dur":996, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719783070791715, "dur":5080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719783070796911, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1719783070796805, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1719783070797070, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719783070863908, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1719783070865283, "dur":109873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070787654, "dur":3068, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070790724, "dur":310, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070791034, "dur":5778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070796814, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1719783070796905, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070815798, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1719783070817507, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070817598, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070820068, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070820186, "dur":3160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070823418, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070823518, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070826229, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070826468, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070829436, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070829547, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070833143, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070833245, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070836379, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070836494, "dur":4112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070840681, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719783070840857, "dur":4754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719783070845714, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1719783070848612, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1719783070852263, "dur":122948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070787688, "dur":3041, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070790729, "dur":6089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070796819, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1719783070796913, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070816353, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1719783070817975, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070818230, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070820516, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070823104, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070823178, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070825696, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070825823, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070828665, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070828797, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070832138, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070832597, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070835684, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070835772, "dur":4491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070840356, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070840472, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070844434, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719783070844643, "dur":5346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719783070850054, "dur":125098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719783070787716, "dur":3020, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719783070790737, "dur":6072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719783070796830, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1719783070796813, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1719783070797064, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719783070863285, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1719783070864809, "dur":110355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719783070787751, "dur":2994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719783070790745, "dur":6057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719783070796832, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1719783070796803, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1719783070796954, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719783070837517, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1719783070839491, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719783070839573, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719783070843288, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719783070843405, "dur":5118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719783070848616, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1719783070851898, "dur":123323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070787830, "dur":2939, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070790769, "dur":6024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070796795, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1719783070796887, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070826606, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1719783070828326, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070828439, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719783070832134, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070832588, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719783070836119, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070836499, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719783070840600, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070840702, "dur":4129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719783070844938, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719783070845077, "dur":4664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719783070849831, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1719783070852572, "dur":122620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070787777, "dur":2975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070790753, "dur":6028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070796803, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070796903, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070814289, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1719783070815736, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070815812, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070819224, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070819454, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070821741, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070821860, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070824274, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070824355, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070827123, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070827443, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070830326, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070830487, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070834030, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070834156, "dur":3942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070838165, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070838275, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070842377, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070842521, "dur":4362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719783070846963, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719783070847066, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1719783070850154, "dur":124995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070787808, "dur":2952, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070790761, "dur":6046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070796808, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1719783070796920, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070827718, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1719783070829224, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070829384, "dur":3721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719783070833178, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070833261, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719783070836734, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070837072, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719783070841077, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070841184, "dur":4070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719783070845327, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719783070845324, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719783070845396, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719783070845469, "dur":17088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719783070862638, "dur":112534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070787855, "dur":2922, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070790778, "dur":6008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070796861, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1719783070796795, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1719783070796946, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070804286, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1719783070806539, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":16, "ts":1719783070806539, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/MaGame/My project (1).exe" }}
+,{ "pid":12345, "tid":16, "ts":1719783070806737, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1).exe" }}
+,{ "pid":12345, "tid":16, "ts":1719783070808740, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070811602, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070811732, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070813364, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070813432, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070815005, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070815091, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070816981, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070819529, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070819639, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070822670, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070822842, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070825443, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070825630, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070828421, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070828561, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070831891, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070832038, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070835410, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070835520, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070839822, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070840002, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070843869, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719783070844006, "dur":5485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719783070849610, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/MaGame/My project (1)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1719783070852542, "dur":122656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719783070982429, "dur":1882, "ph":"X", "name": "ProfilerWriteOutput" }
+,
